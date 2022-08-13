@@ -24,11 +24,17 @@ module.exports = {
                   --background-modifier-active: hsla(217,calc(var(--saturation-factor, 1)*7.6%),33.5%,0.48);
                   --background-modifier-selected: hsla(217,calc(var(--saturation-factor, 1)*7.6%),33.5%,0.6);
                   --background-modifier-accent: hsla(217,calc(var(--saturation-factor, 1)*7.6%),33.5%,0.48);
+                  --brand-experiment: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%);
+                  --text-normal: hsl(210,calc(var(--saturation-factor, 1)*2.9%),86.7%);
                  */
                 'background-primary': 'hsl(220,calc(var(--saturation-factor, 1)*7.7%),22.9%)',
                 'background-secondary': 'hsl(223,calc(var(--saturation-factor, 1)*6.9%),19.8%)',
                 'background-secondary-alt': 'hsl(220,calc(var(--saturation-factor, 1)*6.8%),17.3%)',
                 'background-tertiary': 'hsl(216,calc(var(--saturation-factor, 1)*7.2%),13.5%)',
+                'background-floating': 'hsl(225,calc(var(--saturation-factor, 1)*7.7%),10.2%)',
+                'brand-experiment': 'hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%)',
+                'text-normal': 'hsl(210,calc(var(--saturation-factor, 1)*2.9%),86.7%)',
+                'background-modifier-accent': 'hsla(217,calc(var(--saturation-factor, 1)*7.6%),33.5%,0.48)',
             }
         },
     },

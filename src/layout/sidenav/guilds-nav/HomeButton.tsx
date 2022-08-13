@@ -1,8 +1,9 @@
+import {FaDiscord} from "react-icons/all";
+import SidenavIcon from "./GuildItem";
+
 const HomeButton = () => {
     return (
-        <div className="flex h-screen bg-background-tertiary w-18">
-            <div></div>
-        </div>
+        <SidenavIcon icon={<FaDiscord size={28} />} text="Home" />
     )
 }
 export default HomeButton;

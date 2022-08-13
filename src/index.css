@@ -5,3 +5,23 @@
 :root{
     --saturation-factor: 1;
 }
+
+@layer components {
+
+    .sidebar-icon {
+        @apply relative flex items-center justify-center
+        h-12 w-12 mb-2 mx-auto shadow-lg
+        bg-background-primary hover:text-white text-text-normal
+        hover:bg-brand-experiment hover:text-white
+        rounded-3xl hover:rounded-xl
+        transition-all duration-100 ease-linear
+        cursor-pointer;
+    }
+
+    .sidebar-tooltip {
+        @apply absolute w-auto p-2 m-2 min-w-max left-14
+        rounded-md shadow-md
+        text-white bg-background-floating text-xs font-bold
+        transition-all duration-100 scale-0 origin-left;
+    }
+}

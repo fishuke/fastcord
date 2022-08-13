@@ -1,8 +1,16 @@
-const GuildItem = () => {
+interface Props {
+    icon: JSX.Element | JSX.Element[];
+    text: string;
+}
+
+function SidenavIcon(props: Props) {
+    const {icon, text} = props;
     return (
-        <div className="flex h-screen bg-background-tertiary w-18">
-            <div></div>
+        <div className="sidebar-icon group">
+            {icon}
+            <span className="sidebar-tooltip group-hover:scale-100">{text}</span>
         </div>
     )
 }
-export default GuildItem;
+
+export default SidenavIcon;
